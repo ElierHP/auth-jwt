@@ -1,0 +1,33 @@
+{
+  "name": "auth-jwt",
+  "version": "1.0.0",
+  "description": "authentication and authorization with express, passport and jwt.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start:dev": "nodemon src/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ElierHP/auth-jwt.git"
+  },
+  "author": "Elier Hernandez",
+  "license": "MIT",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/ElierHP/auth-jwt/issues"
+  },
+  "homepage": "https://github.com/ElierHP/auth-jwt#readme",
+  "dependencies": {
+    "express": "^4.18.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.3.1",
+    "passport": "^0.5.2",
+    "passport-jwt": "^4.0.0",
+    "passport-local": "^1.0.0",
+    "passport-local-mongoose": "^7.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
